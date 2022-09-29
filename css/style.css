@@ -50,7 +50,7 @@ img {
 
 /* PlayStation 5 section */
 /* Introduction */
-.ms_introduiction h4 {
+.ms_introduction h4 {
     text-transform: uppercase;
 }
 
@@ -62,4 +62,10 @@ img {
 /* Jumbotron 2 */
 .ms_jumbotron-2 {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+}
+
+/* New titles */
+.new-titles {
+    /* DEBUG */
+    color: white;
 }
