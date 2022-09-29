@@ -7,8 +7,35 @@ img {
     max-width: 100%;
 }
 
+.ms_container {
+    width: 95%;
+    margin: 0 auto;
+}
+
 /* HEADER */
 /* Logo bar */
 .ms_logo-bar img {
     width: 80px;
+}
+
+/* MAIN */
+/* Jumbotron 1 */
+.ms_jumbotron-1 {
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    background-position: center;
+
+    /* DEBUG */
+    padding-top: 400px;
+    width: 100%;
+    height: 600px;
+    background-color: brown;
+    color: white;
+}
+
+/* Titles */
+
+.ms_card {
+    /* DEBUG */
+    border: 1px dashed white;
 }
