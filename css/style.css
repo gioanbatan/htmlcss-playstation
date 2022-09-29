@@ -65,7 +65,18 @@ img {
 }
 
 /* New titles */
-.new-titles {
+.ms_new-titles {
     /* DEBUG */
     color: white;
+}
+
+/* PlaystationPlus section*/
+.ms_playstation-plus {
+    background-color: #bebcbb;
+}
+
+/* PlaystationNow section */
+.ms_playstation-now {
+    color: #ffffff;
+    background-color: #161c3b;
 }
