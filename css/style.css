@@ -12,6 +12,12 @@ img {
     margin: 0 auto;
 }
 
+.ms_section {
+    /* DEBUG */
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+}
+
 /* HEADER */
 /* Logo bar */
 .ms_logo-bar img {
@@ -39,3 +45,15 @@ img {
     /* DEBUG */
     border: 1px dashed white;
 }
+
+/* PlayStation 5 section */
+/* Introduction */
+.ms_introduiction h4 {
+    text-transform: uppercase;
+}
+
+/* PlayStation 5 components */
+.ms_component-description {
+    text-align: center;
+}
+
