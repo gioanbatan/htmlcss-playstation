@@ -7,6 +7,11 @@ img {
     max-width: 100%;
 }
 
+ul {
+    list-style-type: none;
+    color: inherit;
+}
+
 .ms_container {
     width: 95%;
     margin: 0 auto;
@@ -89,4 +94,11 @@ img {
 /* Social links */
 .ms_social img {
     /* max-width: 200px; */
+}
+
+/* Footer */
+/* Footer top */
+.ms_footer-top {
+    color: #ffffff;
+    background-color: #00439c;
 }
