@@ -1,4 +1,14 @@
 /* COMMON */
+html {
+    font-size: 62.5%;
+}
+
 img {
     max-width: 100%;
+}
+
+/* HEADER */
+/* Logo bar */
+.ms_logo-bar img {
+    width: 80px;
 }
