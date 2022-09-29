@@ -18,16 +18,7 @@ img {
     padding-bottom: 5rem;
 }
 
-/* HEADER */
-/* Logo bar */
-.ms_logo-bar img {
-    width: 80px;
-}
-
-/* MAIN */
-/* Jumbotron 1 */
-.ms_jumbotron-1 {
-    background-image: url(../img/jumbo-bg.png);
+.ms_jumbotron {
     background-size: cover;
     background-position: center;
 
@@ -39,8 +30,19 @@ img {
     color: white;
 }
 
-/* Titles */
+/* HEADER */
+/* Logo bar */
+.ms_logo-bar img {
+    width: 80px;
+}
 
+/* MAIN */
+/* Jumbotron 1 */
+.ms_jumbotron-1 {
+    background-image: url(../img/jumbo-bg.png);
+}
+
+/* Titles */
 .ms_card {
     /* DEBUG */
     border: 1px dashed white;
@@ -57,3 +59,7 @@ img {
     text-align: center;
 }
 
+/* Jumbotron 2 */
+.ms_jumbotron-2 {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+}
