@@ -12,6 +12,11 @@ img {
     margin: 0 auto;
 }
 
+.ms_container-max-600 {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
 .ms_section {
     /* DEBUG */
     padding-top: 3rem;
@@ -79,4 +84,9 @@ img {
 .ms_playstation-now {
     color: #ffffff;
     background-color: #161c3b;
+}
+
+/* Social links */
+.ms_social img {
+    /* max-width: 200px; */
 }
