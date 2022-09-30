@@ -127,7 +127,10 @@ a {
 /* Titles */
 .ms_card {
     /* DEBUG */
+    background-color: #cd3d0f;
     border: 1px dashed white;
+    border-radius: 2rem;
+    overflow: hidden;
 }
 
 /* PlayStation 5 section */
