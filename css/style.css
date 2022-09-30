@@ -56,6 +56,10 @@ a {
     background-color: var(--col-gray);
 }
 
+.ms_bg-darkgray {
+    background-color: var(--col-darkgray);
+}
+
 .ms_bg-orange {
     background-color: var(--col-orange);
 }
@@ -86,7 +90,6 @@ a {
 }
 
 .ms_section {
-    /* DEBUG */
     padding-top: 3rem;
     padding-bottom: 5rem;
 }
@@ -137,6 +140,10 @@ a {
     color: var(--col-darkgray);
 }
 
+.ms_bg-darkgray .ms_section-title h2 {
+    color: var(--col-white);
+} 
+
 .ms_section-title h4 {
     font-size: 1.5rem;
     font-weight: 600;
@@ -148,10 +155,12 @@ a {
     font-size: 2.1rem;
     font-weight: 600;
     letter-spacing: -0.05rem;
-
-    /* padding-bottom: 3rem; */
-
+    
     color: var(--col-lightgray);
+}
+
+.ms_bg-darkgray .ms_section-title p {
+    color: var(--col-white);
 }
 
 
@@ -179,9 +188,9 @@ a {
 .ms_components .ms_card {
     font-size: 1.5rem;
     font-weight: 600;
-
+    
     text-align: center;
-
+    
     height: 100%;
     opacity: 0.5;
 }
@@ -208,9 +217,9 @@ a {
 }
 
 /* New titles */
-.ms_new-titles {
-    /* DEBUG */
-    color: white;
+.ms_new-titles .ms_card-rounded p {
+    font-size: 1.7rem;
+    font-weight: 600;
 }
 
 /* PlaystationPlus section*/
