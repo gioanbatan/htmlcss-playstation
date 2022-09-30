@@ -4,8 +4,11 @@
     /* Colors */
     --col-white: #ffffff;
     --col-black: #000000;
+    --col-lightgray: #727272;
     --col-gray: #363636;
+    --col-darkgray: #1f1f1f;
     --col-orange: #cd3d0f;
+    --col-blue: #2d64e6;
 }
 
 /* COMMON */
@@ -36,6 +39,10 @@ a {
     color: var(--col-black);
 }
 
+.ms_col-darkgray {
+    color: var(--col-darkgray)
+}
+
 /* Backgrounds Colors*/
 .ms_bg-black {
     background-color: var(--col-black);
@@ -53,18 +60,20 @@ a {
     background-color: var(--col-orange);
 }
 
+.ms_bg-blue {
+    background-color: var(--col-blue);
+}
+
 /* Buttons */
 .ms_btn {
     padding: 0.9rem  1.3rem;
 
     font-size: 1.6rem;
     font-weight: 600;
-
-    border-radius: 5rem;
     
-    /* DEBUG */
-    /* background-color: #00439c; */
+    border-radius: 5rem;
 }
+
 /* Layout */
 .ms_container {
     width: 95%;
@@ -88,13 +97,13 @@ a {
     justify-content: flex-end;
     background-size: cover;
     background-position: center;
-
-    /* DEBUG */
-    margin-top: 10rem;
+    
     width: 100%;
     min-height: 60rem;
-    background-color: brown;
     color: white;
+    
+    /* DEBUG */
+    margin-top: 10rem;
 }
 
 .ms_jumbotron img {
@@ -112,6 +121,39 @@ a {
     padding-bottom: 3rem;
 }
 
+.ms_card-rounded {
+    border-radius: 2rem;
+    overflow: hidden;
+}
+
+/* Typography */
+.ms_section-title h2 {
+    font-size: 4rem;
+    font-weight: 600;
+
+    padding-bottom: 3rem;
+
+    color: var(--col-darkgray);
+}
+
+.ms_section-title h4 {
+    font-size: 1.5rem;
+    font-weight: 600;
+
+    color: var(--col-blue);
+}
+
+.ms_section-title p {
+    font-size: 2.1rem;
+    font-weight: 600;
+    letter-spacing: -0.05rem;
+
+    /* padding-bottom: 3rem; */
+
+    color: var(--col-lightgray);
+}
+
+
 /* HEADER */
 /* Logo bar */
 .ms_logo-bar img {
@@ -125,13 +167,6 @@ a {
 }
 
 /* Titles */
-.ms_card {
-    /* DEBUG */
-    background-color: #cd3d0f;
-    border: 1px dashed white;
-    border-radius: 2rem;
-    overflow: hidden;
-}
 
 /* PlayStation 5 section */
 /* Introduction */
@@ -140,6 +175,28 @@ a {
 }
 
 /* PlayStation 5 components */
+.ms_components .ms_card {
+    font-size: 1.5rem;
+    font-weight: 600;
+
+    text-align: center;
+
+    height: 100%;
+    opacity: 0.5;
+}
+
+.ms_components .ms_card.ms_active {
+    opacity: 1;
+
+    border-bottom: 2px solid var(--col-blue);
+}
+
+@media screen and (min-width:768px) {
+    .ms_components .ms_card img {
+        width: 50%;
+    }
+}
+
 .ms_component-description {
     text-align: center;
 }
