@@ -4,6 +4,7 @@
     /* Colors */
     --col-white: #ffffff;
     --col-black: #000000;
+    --col-lightlightgray: #d9dadc;
     --col-lightgray: #727272;
     --col-gray: #363636;
     --col-darkgray: #1f1f1f;
@@ -40,7 +41,11 @@ a {
 }
 
 .ms_col-darkgray {
-    color: var(--col-darkgray)
+    color: var(--col-darkgray);
+}
+
+.ms_col-blue {
+    color: var(--col-blue);
 }
 
 /* Backgrounds Colors*/
@@ -50,6 +55,14 @@ a {
 
 .ms_bg-white {
     background-color: var(--col-white);
+}
+
+.ms_bg-lightlightgray {
+    background-color: var(--col-lightlightgray);
+}
+
+.ms_bg-lightgray {
+    background-color: var(--col-lightgray);
 }
 
 .ms_bg-gray {
@@ -125,7 +138,7 @@ a {
     padding-bottom: 3rem;
 }
 
-.ms_card-rounded {
+.ms_img-rounded {
     border-radius: 2rem;
     overflow: hidden;
 }
@@ -226,6 +239,31 @@ a {
 .ms_playstation-plus {
     background-color: #bebcbb;
 }
+
+.ms_playstation-plus-text {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+@media screen and (min-width: 768px){
+    .ms_playstation-plus-text {
+        padding-top: 0rem;
+        padding-bottom: 0rem;
+    }
+}
+.ms_playstation-plus-text img {
+    width: 60%;
+}
+
+.ms_playstation-plus-text p {
+    font-size: 1.6rem;
+    font-weight: 600;
+    letter-spacing: -0.03rem;
+
+    color: var(--col-darkgray);
+}
+
+
 
 /* PlaystationNow section */
 .ms_playstation-now {
