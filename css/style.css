@@ -5,6 +5,7 @@
     --col-white: #ffffff;
     --col-black: #000000;
     --col-gray: #363636;
+    --col-orange: #cd3d0f;
 }
 
 /* COMMON */
@@ -48,13 +49,16 @@ a {
     background-color: var(--col-gray);
 }
 
+.ms_bg-orange {
+    background-color: var(--col-orange);
+}
+
 /* Buttons */
 .ms_btn {
     padding: 0.9rem  1.3rem;
 
     font-size: 1.6rem;
     font-weight: 600;
-
 
     border-radius: 5rem;
     
@@ -79,15 +83,33 @@ a {
 }
 
 .ms_jumbotron {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
     background-size: cover;
     background-position: center;
 
     /* DEBUG */
-    padding-top: 400px;
+    margin-top: 10rem;
     width: 100%;
-    height: 600px;
+    min-height: 60rem;
     background-color: brown;
     color: white;
+}
+
+.ms_jumbotron img {
+    padding-bottom: 4rem;
+}
+
+.ms_jumbotron h2 {
+    font-size: 4.2rem;
+    padding-bottom: 3rem;
+}
+
+.ms_jumbotron p {
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding-bottom: 3rem;
 }
 
 /* HEADER */
