@@ -1,3 +1,12 @@
+/* VARIABLES */
+:root {
+
+    /* Colors */
+    --col-white: #ffffff;
+    --col-black: #000000;
+    --col-gray: #363636;
+}
+
 /* COMMON */
 html {
     font-size: 62.5%;
@@ -9,9 +18,50 @@ img {
 
 ul {
     list-style-type: none;
-    color: inherit;
 }
 
+a {
+    text-decoration: none;
+    color: inherit; 
+}
+
+/* UTILITIES */
+/* Text Colors */
+.ms_col-white {
+    color: var(--col-white);
+}
+
+.ms_col-black {
+    color: var(--col-black);
+}
+
+/* Backgrounds Colors*/
+.ms_bg-black {
+    background-color: var(--col-black);
+}
+
+.ms_bg-white {
+    background-color: var(--col-white);
+}
+
+.ms_bg-gray {
+    background-color: var(--col-gray);
+}
+
+/* Buttons */
+.ms_btn {
+    padding: 0.9rem  1.3rem;
+
+    font-size: 1.6rem;
+    font-weight: 600;
+
+
+    border-radius: 5rem;
+    
+    /* DEBUG */
+    /* background-color: #00439c; */
+}
+/* Layout */
 .ms_container {
     width: 95%;
     margin: 0 auto;
