@@ -10,7 +10,8 @@
     --col-darkgray: #1f1f1f;
     --col-orange: #cd3d0f;
     --col-blue: #2d64e6;
-    --col-darkblue: #161c3b;
+    --col-darkblue: #00439c;
+    --col-darkdarkblue: #161c3b;
 }
 
 /* COMMON */
@@ -246,7 +247,7 @@ a {
 /* PlayStationNow section */
 .ms_playstation-now {
     color: var(--col-white);
-    background-color:var(--col-darkblue);
+    background-color:var(--col-darkdarkblue);
 }
 
 /* Both PlayStation Plus and Now section */
@@ -288,13 +289,34 @@ a {
 
     color: var(--col-darkgray);
 }
-.ms_social img {
-    /* max-width: 200px; */
-}
 
 /* Footer */
 /* Footer top */
-.ms_footer-top {
-    color: #ffffff;
-    background-color: #00439c;
+.ms_footer-top,
+.ms_footer-bottom {
+    color: var(--col-white);
+    background-color: var(--col-darkblue);
+
+    font-size: 1.4rem;
+    font-weight: 700;
 }
+
+.ms_footer-top img {
+    width: 10rem;
+
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.ms_footer-bottom img {
+    width: 14rem;
+
+    padding-bottom: 1.4;
+}
+
+.ms_footer-top li {
+    line-height: 3rem;
+}
+
+.ms_footer-bottom a {
+    text-decoration: revert;
