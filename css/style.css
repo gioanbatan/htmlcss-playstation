@@ -10,6 +10,7 @@
     --col-darkgray: #1f1f1f;
     --col-orange: #cd3d0f;
     --col-blue: #2d64e6;
+    --col-darkblue: #161c3b;
 }
 
 /* COMMON */
@@ -98,7 +99,8 @@ a {
 }
 
 .ms_container-max-600 {
-    max-width: 600px;
+    width: 95%;
+    max-width: 550px;
     margin: 0 auto;
 }
 
@@ -235,43 +237,57 @@ a {
     font-weight: 600;
 }
 
-/* PlaystationPlus section*/
+/* PlayStationPlus section*/
 .ms_playstation-plus {
+    color: var(--col-white);
     background-color: #bebcbb;
 }
 
-.ms_playstation-plus-text {
+/* PlayStationNow section */
+.ms_playstation-now {
+    color: var(--col-white);
+    background-color:var(--col-darkblue);
+}
+
+/* Both PlayStation Plus and Now section */
+.ms_playstation-plus-text,
+.ms_playstation-now-text {
     padding-top: 4rem;
     padding-bottom: 4rem;
 }
 
+.ms_playstation-plus-text img,
+.ms_playstation-now-text img {
+    width: 60%;
+}
+
+.ms_playstation-plus-text p,
+.ms_playstation-now-text p {
+    font-size: 1.7rem;
+    font-weight: 600;
+    letter-spacing: -0.03rem;
+    
+    color: var(--col-white);
+}
+
 @media screen and (min-width: 768px){
-    .ms_playstation-plus-text {
+    .ms_playstation-plus-text,
+    .ms_playstation-now-text {
         padding-top: 0rem;
         padding-bottom: 0rem;
     }
 }
-.ms_playstation-plus-text img {
-    width: 60%;
-}
 
-.ms_playstation-plus-text p {
-    font-size: 1.6rem;
+/* Social links */
+.ms_social h2 {
+    font-size: 3.3rem;
     font-weight: 600;
-    letter-spacing: -0.03rem;
+
+    padding-top: 4rem;
+    padding-bottom: 7rem;
 
     color: var(--col-darkgray);
 }
-
-
-
-/* PlaystationNow section */
-.ms_playstation-now {
-    color: #ffffff;
-    background-color: #161c3b;
-}
-
-/* Social links */
 .ms_social img {
     /* max-width: 200px; */
 }
